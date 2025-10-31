@@ -1,0 +1,58 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# ==================== AWS & Bedrock ====================
+boto3
+botocore
+s3transfer
+
+# ==================== Database ====================
+sqlalchemy
+psycopg2-binary
+pgvector
+alembic
+
+# ==================== Caching & Queue ====================
+redis
+celery
+
+# ==================== GitHub Integration ====================
+PyGithub
+requests
+httpx
+
+# ==================== Code Analysis ====================
+tree-sitter
+tree-sitter-python
+tree-sitter-javascript
+
+# ==================== Logging & Monitoring ====================
+structlog
+python-json-logger
+sentry-sdk
+
+# ==================== Utilities ====================
+python-dotenv
+tenacity
+click
+
+# ==================== Testing ====================
+pytest
+pytest-asyncio
+pytest-cov
+
+# ==================== Code Quality ====================
+black
+flake8
+mypy
+pylint
+isort
+
+# ==================== Development ====================
+ipython
+jupyter
+
+# ==================== Production Server ====================
+gunicorn
